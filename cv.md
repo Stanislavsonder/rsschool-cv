@@ -9,16 +9,16 @@
 - ### E-mail: [stanislavsonder@gmail.com](mailto:stanislavsonder@gmail.com)
 - ### Discord: [Stanislavsonder#8699](https://discordapp.com/users/200292959906693120)
 - ### GitHub: [Stanislavsonder](https://github.com/Stanislavsonder)
-- ### Codewars: [Stanislavsonder / 5 kyu](https://www.codewars.com/users/Stanislavsonder)
+- ### Codewars: [Stanislavsonder](https://www.codewars.com/users/Stanislavsonder)
 - ### VK: [vk.com/stanislavsonder](https://vk.com/stanislavsonder)
 - ### Skype: [Stanislav Doronin](https://join.skype.com/invite/CDQw58rxb2P2)
 - ### Twitter: [@Stanislavsonder](https://twitter.com/Stanislavsonder)
 
 
 ## About Me
-**Hi! I am Stanislav, I am 24, my story began on May 7, 1997.**
+**Hi, my name is Stanislav, I’am 24, and my story began on May 7, 1997.**
 
-I have been creating something since childhood. Websites, games, scripts, programs, mods, logos, etc. It's nice when you are able not only to come up with something special, but also to bring it to life with the help of your skills. That's why I'm here. To endlessly learn, create, invent. Especially when you are not alone in your aspirations.
+I have been creating websites, games, scripts, programs, mods, logos and many other things since childhood. It’s exciting, when you are able to come up with something special and bring it to life. Especially with the help of your skills. That's why I'm here. To increase knowledge, create and invent something new. It's inspiring me, because I’m not alone.
 
 <details>
   <summary>Chronology of my skills improvement</summary>
