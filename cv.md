@@ -20,6 +20,45 @@
 
 I have been creating something since childhood. Websites, games, scripts, programs, mods, logos, etc. It's nice when you are able not only to come up with something special, but also to bring it to life with the help of your skills. That's why I'm here. To endlessly learn, create, invent. Especially when you are not alone in your aspirations.
 
+<details>
+  <summary>Chronology of my skills improvement</summary>
+  
+| ======            	| =================================================================                                                   	|
+|-------------------	|---------------------------------------------------------------------------------------------------------------------	|
+| **0  years old:** 	| Born a winner.                                                                                                      	|
+| **12 years old:** 	| The first website based on **Ucoz** was created.                                                                    	|
+|                   	| Active study of **Adobe Photoshop**.                                                                                	|
+| **15 years old:** 	| Create a clone of Battle City on **PascalABC**.                                                                     	|
+|                   	| Commercial creation of a menu based on wiki markup for Vseti.by.                                                    	|
+|                   	| Administration of the official **Linux** community Vseti.by.                                                        	|
+| **16 years old:** 	| An attempt to write my social network, a clone of VK, on **PHP**.                                                   	|
+|                   	| Learning the **Creation Engine**, creating the first mods for **TES V: Skyrim**.                                    	|
+| **17 years old:** 	| Joining the Soulmaster modmaker team, a year of active modmaking.                                                   	|
+|                   	| Admission to the university. BSU, Faculty of Mechanics and Mathematics, Applied Mechanics.                          	|
+| **18 years old:** 	| Work as an author in **Igromania**.                                                                                 	|
+|                   	| The first successful attempt to install **Hackintosh**.                                                             	|
+|                   	| Learning **Python3**, creating a game on **Ren'Py**.                                                                	|
+| **19 years old:** 	| Leaving the university.                                                                                             	|
+|                   	| The Army.                                                                                                           	|
+|                   	| Active study of **JS, jQuery, HTML5, CSS3** (well, what else to do in the army).                          	          |
+| **21 years old:** 	| Release from the army.                                                                                              	|
+|                     | Admission to the University - BSU FSC, Information Technology, Design and Computer Graphics.                          |
+|                   	| Creating games on **Unity** (Game design, graphics).                                                                	|
+|                   	| Creating modifications for Europa Universalis IV.                                                                   	|
+| **22 years old:** 	| Learning **C++, C#, Java**, etc. according to the educational program.                                              	|
+|                   	| Coding in **Unity**.                                                                                                	|
+|                   	| Working as a designer in EComerceGroup.                                                                             	|
+|                   	| Automation of work by creating scripts\plugins for **Adobe Illustrator**, **Photoshop**.                            	|
+|                   	| The decision to choose the direction of development in the direction of **JavaScript**.                             	|
+|                   	| Learning **ExtendScrpt**.                                                                                           	|
+| **23 years old:** 	| Freelance design and scripting.                                                                                     	|
+|                   	| Learning **NodeJS, Express, MongoDB, React, Vue, REST**.                                                            	|
+|                   	| Creating a **StreamHata** project - a web application for holding a game event of the same name.                    	|
+|                   	| Active development of the project on the **MERN** stack.                                                            	|
+|                   	| Writing a parser [Metacritic.com](https://www.metacritic.com/).                                                     	|
+| **24 years old:** 	| For the first time in my life, I signed up for a course (RSSchool).                                                 	|
+|                   	| I am writing this CV.                                                                                               	|
+</details>
 
 ## Skills 
 - HTML5, XML, XAML
