@@ -1,4 +1,4 @@
-# [rsschool-cv](https://github.com/)
+# [rsschool-cv](https://stanislavsonder.github.io/rsschool-cv/)
 # Stanislav Doronin
 
 <<<<<<< Updated upstream
