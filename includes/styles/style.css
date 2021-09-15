@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrainsMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrainsMono-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    background-color: #1e1b19;
+    background-image: repeating-linear-gradient(-45deg, transparent 1px 10px, rgba(0, 0, 0, 0.5) 10px 13px);
+    font-size: 18pt;
+    font-family: "Roboto", semi-serif, serif;
+    color: #ffffff;
+    width: 95%;
+    margin: auto;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+header {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.my-photo {
+    margin-bottom: -100px;
+    width: 250px;
+    height: 250px;
+    background: #ffffff;
+    z-index: 10;
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-self: flex-start;
+    margin-left: 150px;
+    box-shadow: #211d1c 1px 1px 25px;
+    transform: rotate(-45deg);
+}
+.my-photo img {
+    border-radius: 20px;
+}
+
+.main-info-squares {
+    height: 525px;
+    width: 100%;
+    align-self: flex-start;
+}
+.main-info-squares .square-blue {
+    position: absolute;
+    border-radius: 25px;
+    margin-left: 50px;
+    width: 450px;
+    height: 525px;
+    background: #5563a3;
+}
+.main-info-squares .square-white {
+    position: absolute;
+    width: 525px;
+    height: 450px;
+    margin: 34px 0 0 15px;
+    border-radius: 25px;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+.square-white h1 {
+    font-size: 1.5em;
+    font-family: 'Pacifico', 'Roboto', semi-serif, serif;
+    color: #5563a3;
+}
+.square-white h2 {
+    text-transform: uppercase;
+
+    padding-top: 15px;
+    font-weight: bold;
+}
+.square-white p {
+    padding: 50px 20px 0 20px;
+}
+.contacts ul {
+    margin-top: 100px;
+}
+.contacts ul li {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 30px 1fr;
+    grid-template-areas:    "icon title"
+                            "none link";
+    margin: 30px 0;
+}
+.contacts ul li h5 {
+    grid-area: title;
+    color: #5563a3;
+    font-weight: bold;
+}
+.contacts ul li > p,.contacts ul li > div {
+    grid-area: link;
+    font-weight: bold;
+}
+
+.contacts ul li p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.contacts ul li img {
+    grid-area: icon;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 35px;
+}
+
+
+/*-------------------------------------------------*/
+.experience-education {
+    background: linear-gradient(90deg, transparent 20%, #5563a3 20%);
+    z-index: -1;
+}
+.experience-education > section {
+    padding-top: 50px;
+}
+.experience-education h2 {
+    padding: 50px 0 15px 0;
+    margin: 0 0 25px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 80%;
+    border-bottom: 2px solid #ffffff;
+}
+.experience-education > section > section {
+    display: flex;
+}
+.experience-education-date {
+    width: 20%;
+    font-weight: bold;
+}
+.experience-education-date p {
+    padding: 3px 0;
+}
+.experience-education-dots span {
+    background: url("../images/Dot.svg");
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.main-right::after {
+    display: block;
+    content: '';
+    height: 25px;
+    background: #5563a3;
+    width: 80%;
+    margin-left: 20%;
+    border-bottom-left-radius: 25px;
+}
+
+.experience-education-info::before{
+    position: absolute;
+    content: "";
+    background: url("../images/Dot.svg") no-repeat 0 100%;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-left: -49px;
+}
+
+.experience-education-info {
+    background: #5563a3;
+    width: 79%;
+    box-sizing: border-box;
+    padding: 0 10px 50px 40px;
+    border-left: 1px solid #ffffff;
+}
+
+.experience-education-info h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.experience-education-info h5 {
+    font-weight: bold;
+    padding: 2px 0 20px 0;
+}
+
+
+
+.my-skills h2 {
+    margin: 40px 0 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.my-skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.my-skills-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.my-skills-list li div:not(.skill-dotes) {
+    border: 5px solid #5563a3;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 15px 5px 5px 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+
+}
+.my-skills-list li div img {
+    width: 64px;
+    height: 64px;
+}
+.skill-dotes {
+    width: 100%;
+}
+.skill-dotes span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid #5563a3;
+    background: #5563a3;
+    margin: 0 3px;
+}
+.skill-dotes .empty-dot {
+    background: none;
+}
+
+.tech-stack {
+    padding: 0 35px;
+}
+.tech-stack h2, .skills-code h2 {
+    margin: 40px 0 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tech-stack p {
+    color: #a6a6a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tech-stack p span {
+     margin: 10px;
+}
+
+.skills-code {
+    display: flex;
+}
+.skills-code > div {
+    width: 50%;
+}
+.my-code-ex {
+    padding: 0 0 0 35px;
+}
+.my-code-ex div {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    width: 85%;
+    padding-left: 10px;
+}
+
+footer {
+    display: flex;
+    padding-left: 35px;
+    height: 200px;
+}
+footer > div {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+footer > div > .square-blue {
+    position: relative;
+    width: 50%;
+    border-radius: 25px 0 0 0;
+    height: 40%;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+    background: #5563a3;
+}
+footer > div > .square-blue a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+footer > div > .square-white {
+    height: 65%;
+    position: relative;
+    width: 50%;
+    border-radius: 25px 25px 0 0;
+    padding: 25px 5% 0 5%;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+footer > div > .square-white img {
+    width: 70%;
+    height: 80%;
+
+}
+.copy {
+    padding: 20px 50px;
+    font-family: 'Pacifico', 'Roboto', semi-serif, serif;
+}
+
+.my-code-ex code {
+    color: #dbfeff;
+    font-family: 'JetBrains Mono', serif;
+}
+
+.code-comment {
+    color: #a4a4a4;
+}
+.code-keyword {
+    color: #c38cd9;
+}
+.code-func {
+    color: #ffca5f;
+}
+.code-arg {
+    color: #e58b6b;
+}
+.code-method {
+    color: #81a9ed;
+}
