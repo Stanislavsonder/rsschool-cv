@@ -62,17 +62,12 @@ function cache(func) {
     }
   }
 ```
-=======
->>>>>>> Stashed changes
+
 ## Education
 - Belarusian State University
   - Faculty of Social and Cultural Communications
     - Web Programming And Computer Design
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 ## Launges 
 - Russian - native
 - Belorusian - native
